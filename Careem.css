@@ -1,0 +1,543 @@
+.careem_img {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 60px;
+
+}
+
+
+.nav_links ul {
+
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+}
+
+.video_link {
+    padding: 20px;
+}
+
+.nav_links ul :hover {
+
+    color: springgreen;
+    cursor: pointer;
+
+
+}
+
+.nav_links ul li :hover {
+
+    color: springgreen;
+    cursor: pointer;
+
+
+
+
+}
+
+/* Start */
+
+.main-section {
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: CareemSans, sans-serif;
+
+}
+
+.image_links1 {
+
+    position: relative;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgb(56, 55, 228);
+    width: 100%;
+    padding-left: 10px;
+    color: aliceblue;
+
+}
+
+.image_links1 h3 {
+    position: relative;
+    top: -70px;
+}
+
+.image_links1 ul {
+    position: relative;
+    top: -70px;
+}
+
+.image_links2 {
+    position: relative;
+    background-color: rgb(210, 255, 213);
+    width: 100%;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: rgb(0, 73, 62);
+
+}
+
+.image_links2 h3 {
+    position: relative;
+    top: -70px;
+}
+
+.image_links2 ul {
+    position: relative;
+    top: -70px;
+}
+
+.image_links3 {
+
+    position: relative;
+    background-color: rgb(127, 95, 250);
+    width: 100%;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: rgb(210, 255, 213);
+}
+
+.image_links3 h3 {
+
+    position: relative;
+    top: -70px;
+}
+
+.image_links3 ul {
+    position: relative;
+    top: -70px;
+}
+
+.image_links4 {
+    position: relative;
+    background-color: rgb(0, 25, 66);
+    width: 100%;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+.image_links4 h3 {
+    position: relative;
+    top: -70px;
+}
+
+.image_links4 ul {
+    position: relative;
+    top: -70px;
+}
+
+.main-section h2 {
+
+
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+
+
+
+}
+
+.main-section h3 {
+
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+.image_links2 h2 h3 ul img {
+
+
+    color: rgb(0, 73, 62);
+
+
+
+}
+
+.arrow_image {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+
+}
+
+#arrow_image_2 {
+    filter: brightness(0);
+
+}
+
+/* END */
+
+.about_section p {
+
+    width: 300px;
+    padding-left: 90px;
+    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    
+}
+
+.about_section h3 {
+
+    font-size: 40px;
+    padding-left: 90px;
+    font-family: Arial, sans-serif;
+}
+
+.about_section button {
+
+   
+    margin-left: 90px;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+
+
+
+}
+
+.about_section_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+/* START CAPTAINS */
+
+.captains_section p {
+
+    width: 300px;
+    padding-left: 90px;
+    font-family: Arial, sans-serif;
+
+}
+
+.captains_section h3 {
+
+    font-size: 40px;
+    padding-left: 90px;
+    font-family: Arial, sans-serif;
+
+}
+
+.captains_section button {
+
+    padding-left: px;
+    margin-left: 90px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+
+}
+
+.captains_section_main {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(136, 248, 192);
+    margin-bottom: 100px;
+
+
+}
+
+/* engineering */
+
+.engineering_section p {
+
+    width: 300px;
+    padding-left: 90px;
+    font-family: Arial, sans-serif;
+
+
+}
+
+.engineering_section h3 {
+
+    font-size: 40px;
+    padding-left: 90px;
+    font-family: Arial, sans-serif;
+}
+
+.engineering_section button {
+
+    padding-left: px;
+    margin-left: 90px;
+    background-color: springgreen;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+
+
+
+}
+
+.engineering_section_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+/* OUR SOCIAL */
+
+
+.social_section p {
+
+    width: 300px;
+    padding-left: 90px;
+    font-family: Arial, sans-serif;
+
+}
+
+.social_section h3 {
+
+    font-size: 40px;
+    padding-left: 90px;
+    font-family: Arial, sans-serif;
+
+}
+
+.social_section button {
+
+    padding-left: px;
+    margin-left: 90px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: springgreen;
+    font-size: 15px;
+
+
+}
+
+.social_section_main {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+
+
+
+}
+
+
+/* PROTFOLIO START */
+
+.protfolio-div {
+
+
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 90px;
+    margin-top: 80px;
+    
+
+}
+
+.heading {
+
+    font-size: 20px;
+    display: flex;
+    padding-top: 90px;
+    padding-right: 120px;
+
+
+}
+
+
+.heading_2 {
+
+    padding-left: 100px;
+    padding-top: 60px;
+    font-size: 38px;
+
+
+}
+
+/* .protfolio-div img h3 {
+    
+
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    gap: px;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 0px;
+
+
+
+} */
+
+
+
+.protfolio_main img {
+
+    width: 300px;
+    padding-top: 10px;
+    border-radius: 30px;
+    height: 330px;
+    justify-content: space-between;
+
+
+
+
+
+}
+
+.profolios {
+
+    display: flex;
+    font-family: Arial, sans-serif;
+    gap: 50px;
+    word-spacing: px;
+    padding-left: 200px;
+    padding-right: 20px;
+    width: 100px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.profolios p {
+
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 20px;
+    line-height: 25px;
+
+}
+
+.profolios button {
+
+
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+
+
+}
+
+.Protfolio-1 {
+
+    background-color: rgb(112, 245, 179);
+    border-radius: 15px;
+
+}
+
+/* FOOTER STAR */
+
+footer {
+    padding: 20px;
+}
+
+
+.main_div {
+
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+
+}
+
+.footer_img img {
+
+
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.main-div1 ul li {
+
+    list-style-type: none;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    line-height: 35px;
+    font-size: 15px;
+
+
+}
+
+.main-div1 h2 {
+
+    padding-top: 30px;
+    font-family: Arial, sans-serif;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: rgb(34, 70, 34);
+}
+
+/* END */
+
+.Select_div select {
+
+    height: 50px;
+    width: 200px;
+    list-style-type: none;
+    border-radius: 9px;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+    color: rgb(13, 59, 13);
+    font-size: 15px;
+    padding-left: 35px;
+    padding-right: 20px;
+
+
+}
+
+.Select_div p {
+
+    font-family: Arial, sans-serif;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+.Header_tag {
+
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+
+
+}
+
+.apps_1 i {
+
+    font-size: 30px;
+
+}
